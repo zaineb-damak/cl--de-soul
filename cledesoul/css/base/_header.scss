@@ -1,0 +1,125 @@
+header{
+    position: fixed;
+    width:85%;
+}
+
+.navbar{
+    height:20%;
+    width: 100%;
+    display:flex;
+    //justify-content: space-between;
+    //align-items: center;
+    display: inline-flex;
+    flex-wrap: wrap;
+}
+
+
+.logo{
+    height:20%;
+    width: 100%;
+    padding-top: 6%;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom:3%;
+    border-bottom: 2px solid black;
+    //display:flex;
+    //justify-content: center;
+    //align-items: center;
+    //display: inline-flex;
+    flex-wrap: wrap;
+}
+
+.logo, a{
+    display:flex;
+    justify-content:center;
+}
+
+.nav-menu{
+    height:20%;
+    width: 100%;
+    padding:0%;
+    padding-top:3%;
+    display:flex;
+    gap:0%;
+    //align-items: center;
+    //display: inline-flex;
+    //flex-wrap: wrap;
+}
+
+.nav-li, a{
+        height:20%;
+        width: 100%;
+        display:flex;
+        //justify-content: space-between;
+        align-items: center;
+        display: inline-flex;
+        flex-wrap: wrap;
+}
+
+//IPAD
+@media only screen and (min-width:768px){
+    .logo{
+        border-bottom: 3px solid black;
+    }
+}
+
+//DESKTOP
+@media only screen and (min-width:1000px){
+    .logo{
+        border-bottom: none;
+        padding:0;
+    }
+
+    header{
+        position:fixed;
+        top:0;
+        width:85%;
+        display: inline-flex;
+        padding:0;
+        //flex-wrap: wrap;
+
+    }
+    
+    .navbar{
+        padding:0%;
+        min-height:115px;
+        width: 100%;
+        //margin:auto;
+        display:flex;
+        justify-content: space-between;
+        gap:90px;
+        align-items: center;
+        display: inline-flex;
+        flex-wrap:nowrap;
+        border-bottom: 4px solid black;
+    }
+    
+    
+    .nav-menu{
+        width:40%;
+        padding:0%;
+        display:flex;
+        justify-content: space-between;
+        align-items:center;
+        //gap:60px;
+        display: inline-flex;
+        //flex-wrap: wrap;
+    }
+    
+    .logo{
+        width:40%;
+        padding:0%;
+        display:flex;
+        //justify-content: space-between;
+        align-items: center;
+        //gap:60px;            
+        display: inline-flex;
+        //flex-wrap: wrap;
+
+    }
+    .nav-li{
+        padding:0;
+        margin:0;
+    }
+
+}

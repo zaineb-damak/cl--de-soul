@@ -1,0 +1,54 @@
+* {
+    font-family: 'Polsku', sans-serif;
+    font-size: 0.8rem;
+    line-height: 1.5;
+    color: black;
+  }
+
+  li {
+    list-style: none;
+  }
+  a {
+    list-style: none;
+  }
+
+//LOGOTIPO
+.logo1{
+  font-size:1.2rem;
+}
+
+//menu
+.nav-li1{
+  font-size:0.6rem;
+  font-family: 'Work Sans', sans-serif;
+}
+
+//tamanho IPAD
+@media only screen and (min-width:768px){
+   
+  //LOGOTIPO
+  .logo1{
+   font-size:2rem;
+  }
+
+  //menu
+  .nav-li1{
+    font-size:1.2rem;
+    font-family: 'Work Sans', sans-serif;
+  }
+
+}
+
+//tamanho desktop
+@media only screen and (min-width:1000px){
+  //LOGOTIPO
+  .logo1{
+    font-size:2.2rem;
+   }
+ 
+   //menu
+   .nav-li1{
+     font-size:1.2rem;
+     font-family: 'Work Sans', sans-serif;
+   }
+}
