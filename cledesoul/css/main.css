@@ -22,6 +22,29 @@ a {
   font-family: "Work Sans", sans-serif;
 }
 
+h2 {
+  font-size: 1.4rem;
+}
+
+.article-name {
+  font-size: 1.4rem;
+}
+
+h1 {
+  font-size: 2.2rem;
+}
+
+p {
+  font-size: 1.2rem;
+  font-family: "Work Sans", sans-serif;
+}
+
+.playfair {
+  font-family: "Playfair Display";
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
 @media only screen and (min-width: 768px) {
   .logo1 {
     font-size: 2rem;
@@ -40,6 +63,193 @@ a {
     font-family: "Work Sans", sans-serif;
   }
 }
+.contentArticle {
+  margin-top: 10%;
+  width: 92%;
+  height: 660px;
+  display: flex;
+}
+
+.lyricsContainer {
+  width: 28%;
+  height: 100%;
+  margin-left: 0;
+}
+
+.confessionContainer {
+  width: 78%;
+  height: 100%;
+  margin-right: 0;
+}
+
+.song-title {
+  width: 100%;
+  height: 10%;
+  margin-left: 0;
+  border-bottom: 4px solid black;
+}
+
+.song-author {
+  width: 100%;
+  height: 10%;
+  margin-top: 2%;
+  margin-left: 0;
+  border-bottom: 4px solid black;
+}
+
+.song-lyrics {
+  height: 78%;
+  width: 100%;
+  margin-top: 2%;
+  margin-left: 0;
+  overflow-y: auto;
+}
+
+.song-settings {
+  width: 100%;
+  height: 10%;
+  margin-left: 0;
+  display: flex;
+}
+
+.setting {
+  width: 33%;
+  height: 60%;
+  margin-top: 1.4%;
+  left: 50%;
+  top: 70%;
+  text-align: center;
+  border: 3px solid black;
+  border-radius: 8px;
+}
+
+.song-confession {
+  position: relative;
+  width: 100%;
+  height: 88%;
+  margin-top: 1%;
+  margin-left: 0;
+}
+
+.text {
+  left: 0;
+  transform: translateY(70%);
+}
+
+.imgConf1 {
+  z-index: 100;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.imgConf2 {
+  z-index: 120;
+  position: absolute;
+  top: 30%;
+  left: 40%;
+}
+
+.imgConf3 {
+  z-index: 115;
+  position: absolute;
+  top: 50%;
+  left: 10%;
+}
+
+.content {
+  margin-top: 10%;
+  margin-left: 36%;
+  width: 800px;
+  height: 2500px;
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+
+.article-div {
+  position: relative;
+  width: 395px;
+  height: 235px;
+  margin: 2%;
+}
+
+.article-img {
+  position: absolute;
+  margin: 0;
+  width: 100%;
+  height: auto;
+}
+
+.article-name {
+  position: absolute;
+  width: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  background-color: transparent;
+}
+
+#nav-content {
+  position: fixed;
+  left: 0;
+  margin-left: 0;
+  bottom: 0;
+  width: 36%;
+  height: 84%;
+  max-width: 800px;
+  z-index: 100;
+  background-color: #f5f5f5;
+  border-radius: 2px;
+  border-width: 3px;
+  border-style: solid;
+  border-color: black;
+  border-radius: 6px;
+  display: flex;
+  transform: translateX(-300%);
+  transition: 0.3s ease trasnform;
+}
+
+.close-btn {
+  margin-left: 89%;
+  margin-right: 0;
+  margin-top: 16%;
+  width: 2px;
+  height: 2px;
+}
+
+#nav-content.show {
+  transform: translateX(0);
+}
+
+.wrapper {
+  position: fixed;
+  left: 0;
+  margin-left: 0;
+  bottom: 0;
+  width: 36%;
+  height: 84%;
+  max-width: 800px;
+  z-index: 100;
+  background-color: #f5f5f5;
+  width: 80%;
+  margin-left: 10%;
+  margin-top: 0%;
+}
+
+.aboutclose {
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+  border-bottom: 4px solid black;
+}
+
+.about {
+  margin-left: 40%;
+  margin-top: 24%;
+}
+
 * {
   background-color: #f5f5f5;
   margin: 0;
@@ -54,6 +264,8 @@ a {
 header {
   position: fixed;
   width: 85%;
+  background-color: #f5f5f5;
+  z-index: 100;
 }
 
 .navbar {
@@ -146,28 +358,4 @@ header {
     padding: 0;
     margin: 0;
   }
-}
-#nav-content {
-  position: fixed;
-  left: 0;
-  margin-left: 0;
-  bottom: 0;
-  width: 36%;
-  height: 84%;
-  max-width: 800px;
-  z-index: 100;
-  background-color: #f5f5f5;
-  border-radius: 2px;
-  border-width: 3px;
-  border-style: solid;
-  border-color: black;
-  border-radius: 6px;
-  display: flex;
-}
-
-.close-btn {
-  margin-left: 90%;
-  margin-top: 2%;
-  width: 2px;
-  height: 2px;
 }/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,101 @@
+.contentArticle{
+    //background-color: red;
+    margin-top: 10%;
+    width:92%;
+    height:660px;
+    display:flex;
+    
+}
+
+.lyricsContainer{
+    //background-color: blue;
+    width:28%;
+    height:100%;
+    margin-left:0;
+}
+
+.confessionContainer{
+    //background-color: blue;
+    width:78%;
+    height:100%;
+    margin-right:0;
+}
+
+.song-title{
+    //background-color: green;
+    width:100%;
+    height: 10%;
+    margin-left:0;
+    border-bottom: 4px solid black;
+}
+.song-author{
+    //background-color: green;
+    width:100%;
+    height: 10%;
+    margin-top:2%;
+    margin-left:0;
+    border-bottom: 4px solid black;
+}
+.song-lyrics{
+    //background-color: green;
+    height:78%;
+    width:100%;
+    margin-top:2%;
+    margin-left:0;
+    overflow-y: auto;
+}
+
+.song-settings{
+    //background-color: green;
+    width:100%;
+    height: 10%;
+    margin-left:0;
+    display:flex;
+}
+
+.setting{
+    width:33%;
+    height:60%;
+    margin-top: 1.4%;
+    left:50%;
+    top: 70%;
+    //transform: translate(-50%,-50%);
+    text-align:center;
+    border: 3px solid black;
+    border-radius: 8px;
+}
+
+.song-confession{
+    //background-color: green;
+    position:relative;
+    width:100%;
+    height: 88%;
+    margin-top:1%;
+    margin-left:0;
+}
+
+.text{
+    left:0;
+    transform: translateY(70%);
+}
+
+.imgConf1{
+    z-index: 100;
+    position: absolute;
+    top:0;
+    left:0;
+}
+
+.imgConf2{
+    z-index: 120;
+    position: absolute;
+    top:30%;
+    left:40%;
+}
+
+.imgConf3{
+    z-index: 115;
+    position: absolute;
+    top:50%;
+    left:10%;
+}
